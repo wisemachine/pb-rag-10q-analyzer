@@ -1,0 +1,35 @@
+# Ignore Chroma database and embeddings
+.chroma/
+chroma_db/
+emb_cache/
+offload/
+
+# Ignore PDFs and raw data
+10q_docs/
+
+# Ignore environment files
+.env
+
+# Ignore log and temp files
+*.log
+temp.py
+
+# Ignore output JSON files
+*_flex_numerics.json
+*_summary.json
+*_insights.json
+
+# Python-related ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environments
+venv/
+.env/
+
+# Misc
+.DS_Store
